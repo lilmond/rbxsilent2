@@ -53,3 +53,14 @@ PID       STATUS
 ----------------------
 14304     Hidden (Silent)
 8712      Visible
+```
+
+### 🔨 Compilation Instructions
+If you prefer to compile the binary yourself from the raw source code using MinGW/w64devkit, run the following command in your terminal:
+
+```
+g++ rbxsilent2.cpp -o rbxsilent2.exe
+```
+
+### ⚠️ Important Disclaimer
+This utility manipulates window visibility states using standard Windows API protocols. While the source code is entirely transparent and safe from traditional malware, using automated third-party window manipulation tools alongside modern game anti-cheat systems (like Byfron/Hyperion) always carries an inherent risk of automated flags or account restrictions. Use responsibly.
